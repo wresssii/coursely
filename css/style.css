@@ -184,3 +184,16 @@ section {
   background: #E48D8B;
   color: #fff;
 }
+
+.menu {
+  margin: 26px 0;
+}
+
+.icons {
+  padding: 20px;
+}
+
+.icon {
+  width: 141px;
+  height: 27px;
+}
