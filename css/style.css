@@ -132,12 +132,9 @@ section {
 	padding: 12px 24px;
 	font-size: 16px;
 	font-weight: 700;
-	border-radius: 118px;
-	border: 2px solid #2C2F24;
 	color: #182226;
 	transition: 0.3s;
 	line-height: 24px;
-	text-align: right;
 	/* 150% */
 	text-align: center;
 }
@@ -181,4 +178,9 @@ section {
   color: #D87775;
   text-align: center;
   font-size: 14px;
+}
+
+.btn__red {
+  background: #E48D8B;
+  color: #fff;
 }
