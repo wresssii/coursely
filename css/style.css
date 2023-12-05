@@ -97,7 +97,7 @@ section {
 
 .sec_tit {
 	color: #2C2F24;
-	font-family: "PlayFair Display";
+	font-family: "Inter";
 	text-align: center;
 	font-size: 100px;
 	line-height: 96px;
@@ -159,4 +159,25 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+}
+
+/* header */
+
+.head {
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  background: #EDEDED;
+}
+
+.tit{
+  color: #0F0F0F;
+  text-align: center;
+  font-size: 14px;
+}
+
+.txt {
+  color: #D87775;
+  text-align: center;
+  font-size: 14px;
 }
