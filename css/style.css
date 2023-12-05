@@ -217,6 +217,14 @@ section {
 
 /* learn */
 
+.learn_left {
+  width: 50%;
+}
+
+.learn_right {
+  width: 50%;
+}
+
 .learn_sec__tit {
   width: 494px;
   color: #0F0F0F;
