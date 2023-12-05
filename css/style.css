@@ -242,12 +242,30 @@ section {
 .learn_txt {
   width: 461px;
   color: #464646;
-  font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: 28px; /* 140% */
 }
+
+.price {
+  color: #0F0F0F;
+  font-family: "Inter";
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 38.4px; /* 123.871% */
+  letter-spacing: 0.5px;
+}
+
+.exprice {
+  width: 52px;
+  color: #757575;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22.4px; /* 112% */
+  letter-spacing: 0.5px;
+}
+
 
 .learn_img {
   width: 564px;
