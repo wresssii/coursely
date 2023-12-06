@@ -218,11 +218,11 @@ section {
 /* learn */
 
 .learn_left {
-  width: 50%;
+  width: 40%;
 }
 
 .learn_right {
-  width: 50%;
+  width: 60%;
 }
 
 .learn_text {
@@ -251,6 +251,7 @@ section {
 .learn_price{
  justify-content: stretch;
   padding: 10px;
+  margin: 5px;
 }
 
 .price {
@@ -275,6 +276,11 @@ section {
 
 
 .learn_img {
-  width: 564px;
-  height: 490px;
+ margin: 0 0 0 97px;
+  width: 583px;
+  height: 490x;
+}
+
+.learn_btns {
+  margin: 20px;
 }
