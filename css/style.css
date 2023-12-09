@@ -311,6 +311,7 @@ section {
 	font-size: 25px;
 	font-weight: 400;
 	line-height: 32.5px; /* 130% */
+	padding: 13px 0;
 }
 
 .card_txt {
@@ -319,6 +320,7 @@ section {
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 27px; /* 150% */
+	padding: 0 0 13px;
 }
 
 .card_txt__one {
@@ -335,6 +337,7 @@ section {
 	font-size: 25px;
 	font-weight: 400;
 	line-height: 32.5px; /* 130% */
+	padding: 13px 0;
 }
 
 .card_tit__three {
@@ -343,4 +346,5 @@ section {
 	font-size: 25px;
 	font-weight: 400;
 	line-height: 32.5px; /* 130% */
+	padding: 13px 0;
 }
