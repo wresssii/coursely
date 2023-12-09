@@ -292,17 +292,26 @@ section {
 
 .cards {
 	width: 1130px;
+  margin: 0 15px;
 }
 
 
 .card {
 	width: calc((100% - 128px) / 3);
+	transition: 0.3s;
+	border-radius: 12px;
+	padding-bottom: 20px;
+}
+
+.card:hover {
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 
 .icon {
 	width: 40px;
 	height: 40px;
+	margin: 13px;
 }
 
 .card_tit__one {
@@ -311,7 +320,7 @@ section {
 	font-size: 25px;
 	font-weight: 400;
 	line-height: 32.5px; /* 130% */
-	padding: 13px 0;
+	padding: 0 13px 0;
 }
 
 .card_txt {
@@ -320,7 +329,7 @@ section {
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 27px; /* 150% */
-	padding: 0 0 13px;
+	padding: 13px;
 }
 
 .card_txt__one {
@@ -329,6 +338,7 @@ section {
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 27px; /* 150% */
+	padding: 13px;
 }
 
 .card_tit__two {
@@ -337,7 +347,7 @@ section {
 	font-size: 25px;
 	font-weight: 400;
 	line-height: 32.5px; /* 130% */
-	padding: 13px 0;
+	padding: 0 13px 0;
 }
 
 .card_tit__three {
@@ -346,5 +356,5 @@ section {
 	font-size: 25px;
 	font-weight: 400;
 	line-height: 32.5px; /* 130% */
-	padding: 13px 0;
+	padding: 0 13px 0;
 }
