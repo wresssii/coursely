@@ -190,13 +190,10 @@ section {
   background: #ffffff;
 }
 
-.icons {
-  padding: 20px;
-}
-
 .icon {
   width: 141px;
   height: 27px;
+	margin: 22px;
 }
 
 .text {
@@ -220,10 +217,6 @@ section {
 
 .learn_left {
   width: 40%;
-}
-
-.learn_right {
-  width: 60%;
 }
 
 .learn_text {
@@ -275,18 +268,27 @@ section {
   letter-spacing: 0.5px;
 }
 
+.learn_right {
+	width: 60%;
+}
 
 .learn_img {
- margin: 0 0 0 97px;
-  width: 583px;
-  height: 490x;
+	background: url(../img/IMAGE.jpg);
+  margin: 0 0 0 97px;
 }
 
 .learn_btns {
   margin: 20px;
 }
 
-
+.btn__two {
+	width: 123px;
+	color: #757575;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 27px; /* 150% */
+}
 
 /* rectangle */
 
@@ -308,11 +310,11 @@ section {
 }
 
 
-.icon {
+.card_icon{
 	width: 40px;
 	height: 40px;
 	margin: 13px;
-}
+} 
 
 .card_tit__one {
 	width: 334px;
@@ -358,3 +360,20 @@ section {
 	line-height: 32.5px; /* 130% */
 	padding: 0 13px 0;
 }
+
+/* podcast */
+
+.podcast_left {
+	width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
