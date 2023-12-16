@@ -80,7 +80,7 @@ body {
 }
 
 .container {
-	max-width: 1330px;
+	max-width: 1440px;
 	width: 100%;
 	min-width: 320px;
 	margin: 0 auto;
@@ -162,7 +162,7 @@ section {
 
 /* header */
 
-.head {
+.head_con {
   padding: 12px;
   align-items: center;
   justify-content: center;
@@ -188,8 +188,8 @@ section {
 }
 
 .menu {
-  margin: 26px 0;
-  background: #ffffff;
+  background: #fbfbfb;
+	justify-content: space-around;
 }
 
 .icon {
@@ -293,6 +293,11 @@ section {
 }
 
 /* rectangle */
+
+/* .rectangle_con {
+	justify-content: space-around;
+} */
+
 
 .cards {
 	width: 1130px;
@@ -408,6 +413,8 @@ section {
 
 .included_con {
 	background: #017CFF;
+  height: 424px;
+	padding: 96px 0;	
 }
 
 .inc__sec_tit {
@@ -514,6 +521,8 @@ section {
 
 .included_cards {
 	margin: 47px;
+	justify-content: center;
+	align-items: center;
 }
 
 .included_card {
