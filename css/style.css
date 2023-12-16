@@ -542,3 +542,17 @@ section {
 .by_card:hover {
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
+
+
+
+/* jamie */
+
+.jamie_con {
+	background: #194677;
+	height: 553px;
+}
+
+.item {
+	width: 51px;
+	height: 46px;
+}
