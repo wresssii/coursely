@@ -437,8 +437,7 @@ section {
 	line-height: 45.6px; /* 120% */
 }
 
-.number__one {
-	width: 53px;
+.number {
 	padding: 0 0 33px;
 	color: #FFF;
 	text-align: center;
@@ -447,44 +446,6 @@ section {
 	line-height: 64px; /* 80% */
 }
 
-.number__two {
-	width: 159px;
-	padding: 0 0 33px;
-	color: #FFF;
-	text-align: center;
-	font-size: 80px;;
-	font-weight: 700;
-	line-height: 64px; /* 80% */
-}
-
-.number__three {
-	color: #FFF;
-	padding: 0 0 33px;
-	text-align: center;
-	font-size: 80px;;
-	font-weight: 700;
-	line-height: 64px; /* 80% */
-}
-
-.number__four {
-	width: 55px;
-	padding: 0 0 33px;
-	color: #FFF;
-	text-align: center;
-	font-size: 80px;;
-	font-weight: 700;
-	line-height: 64px; /* 80% */
-}
-
-.number__five {
-	width: 152px;
-	padding: 0 0 33px;
-	color: #FFF;
-	text-align: center;
-	font-size: 80px;;
-	font-weight: 700;
-	line-height: 64px; /* 80% */
-}
 
 .text__one {
 	width: 75px;
@@ -505,7 +466,6 @@ section {
 }
 
 .text__three {
-	width: 57px;
 	color: #FFF;
 	text-align: center;
 	font-size: 17px;
