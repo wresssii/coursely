@@ -372,6 +372,7 @@ section {
 
 .podcast_right {
 	width: 50%;
+	margin: 138px 0;
 }
 
 .podcast_img {
@@ -390,5 +391,14 @@ section {
 
 
 
+.podcast_left__two {
+	width: 50%;
+	margin: 122px 0;
+}
 
+
+.podcast_right__two {
+	width: 50%;
+	margin: 96px 0;
+}
 
