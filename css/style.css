@@ -310,7 +310,7 @@ section {
 
 .card {
 	width: calc((100% - 128px) / 3);
-	transition: 0.3s;
+	transition: 0.5s;
 	border-radius: 12px;
 	padding-bottom: 20px;
 }
@@ -522,6 +522,23 @@ section {
 	height: 40px;
 }
 
-.sec_desc {
-	width: 237px;
+.by__sec_desc {
+	width: 243px;
+	padding: 14px 0 0 0;
+}
+
+.by_con {
+	margin: 0   105px;
+}
+
+.by_card {
+	padding: 16px;
+	margin: 0 0 48px 0;
+	width: calc((100% - 48px) / 4);
+  transition: 0.5s;
+	border-radius: 12px;
+}
+
+.by_card:hover {
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
