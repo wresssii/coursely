@@ -556,3 +556,23 @@ section {
 	width: 51px;
 	height: 46px;
 }
+
+.jam_txt {
+	color: #FFF;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 32.5px; /* 130% */
+}
+
+.jam_txt__two {
+	color: #E48D8B;
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 32.5px;
+}
+
+.jamie_img {
+	width: 100px;
+	height: 100px;
+}
