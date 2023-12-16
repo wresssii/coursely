@@ -577,11 +577,21 @@ section {
 .jamie_img {
 	width: 100px;
 	height: 100px;
+	margin: auto;
 }
 
 .jam_text {
 	margin: auto;
-	padding: 50px 0 256px 0;
+	padding: 50px 0 25px 0;
   text-align: center;
 	width: 646px;
+}
+
+.jamie_tit {
+	color: #FFF;
+	font-family: Inter;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 27px; /* 158.824% */
+	padding: 8px 0 0;
 }
