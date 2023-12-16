@@ -550,16 +550,18 @@ section {
 .jamie_con {
 	background: #194677;
 	height: 553px;
+	text-align: center;
 }
 
 .item {
 	width: 51px;
 	height: 46px;
+	margin: auto;
+	padding: 96px 0 25px 0;
 }
 
 .jam_txt {
 	color: #FFF;
-	text-align: center;
 	font-size: 25px;
 	font-weight: 400;
 	line-height: 32.5px; /* 130% */
@@ -575,4 +577,11 @@ section {
 .jamie_img {
 	width: 100px;
 	height: 100px;
+}
+
+.jam_text {
+	align-items: center;
+	justify-content: center;
+  text-align: center;
+	width: 646px;
 }
