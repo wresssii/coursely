@@ -403,3 +403,16 @@ section {
 	width: 50%;
 }
 
+
+/* included */
+
+.included {
+	background: #017CFF;
+}
+
+
+
+.inc__sec_tit {
+	text-align: center;
+	color: #fff;
+}
