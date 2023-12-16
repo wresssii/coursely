@@ -502,3 +502,15 @@ section {
 	margin-right: 45px;
 	margin-left: 45px;
 }
+
+
+/* course */
+
+.course_sec__tit {
+	text-align: center;
+	color: #0F0F0F;
+	text-align: center;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 45.6px; /* 120% */
+}
