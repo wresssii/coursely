@@ -595,3 +595,30 @@ section {
 	line-height: 27px; /* 158.824% */
 	padding: 8px 0 0;
 }
+
+/* any */
+
+.any_tit {
+	color: #0F0F0F;
+	text-align: center;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 45.6px; /* 120% */
+}
+
+
+/* time */
+
+.time_tit {
+	color: #FFF;
+	text-align: center;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 45.6px; /* 120% */
+}
+
+.time_con {
+	height: 1030px;
+	background: #E48D8B;
+	padding: 121px 0 64px 0 ;
+}
