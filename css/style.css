@@ -389,7 +389,9 @@ section {
 	width: 493px;
 }
 
-
+.podcast_con {
+	margin: 96px 0;
+}
 
 .podcast_left__two {
 	width: 50%;
@@ -399,6 +401,5 @@ section {
 
 .podcast_right__two {
 	width: 50%;
-	margin: 96px 0;
 }
 
