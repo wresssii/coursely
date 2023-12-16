@@ -160,6 +160,10 @@ section {
 	justify-content: space-between;
 }
 
+.con {
+	margin: 0 155px;
+}
+
 /* header */
 
 .head_con {
@@ -216,6 +220,10 @@ section {
 
 
 /* learn */
+
+.learn_con {
+	margin: 0 155px;
+}
 
 .learn_left {
   width: 40%;
@@ -294,11 +302,6 @@ section {
 
 /* rectangle */
 
-/* .rectangle_con {
-	justify-content: space-around;
-} */
-
-
 .cards {
 	width: 1130px;
   margin: 0 15px;
@@ -374,6 +377,9 @@ section {
 	width: 50%;
 }
 
+.podcast_text {
+	margin: 0 0 0 93px;
+}
 
 .podcast_right {
 	width: 50%;
@@ -389,14 +395,20 @@ section {
 	width: 500px;
 }
 
+.podcast_img__two {
+	width: 498px;
+	height: 520px;
+	margin: 0 0 0 93px;
+}
 
 .sec_desc {
 	width: 493px;
 }
 
 .podcast_con {
-	margin: 96px 0;
+	margin: 96px 155px;
 }
+
 
 .podcast_left__two {
 	width: 50%;
