@@ -96,20 +96,22 @@ section {
 }
 
 .sec_tit {
-	color: #2C2F24;
+	color: #0F0F0F;
 	font-family: "Inter";
-	text-align: center;
-	font-size: 100px;
-	line-height: 96px;
-	/* 96% */
-	font-weight: 400;
+	font-size: 38px;
+	line-height: 46px;
+	/* 120% */
+	font-weight: 700;
 	margin-bottom: 20px;
 }
 
 .sec_desc {
-	color: #495460;
-	text-align: center;
+	color: #0F0F0F;
+	font-family: "Inter";
+	font-weight: 400;
+	font-size: 18px;
 	font-style: normal;
+	line-height: 27px; /* 150% */
 }
 
 .color {
@@ -368,10 +370,23 @@ section {
 }
 
 
+.podcast_right {
+	width: 50%;
+}
+
+.podcast_img {
+	width: 498px;
+	height: 520px;
+}
+
+.sec_tit {
+	width: 500px;
+}
 
 
-
-
+.sec_desc {
+	width: 493px;
+}
 
 
 
