@@ -617,6 +617,13 @@ section {
 	line-height: 45.6px; /* 120% */
 }
 
+.btn.btn__blue {
+	width: 208px;
+	height: 43px;
+	color: #fff;
+	background: #017cff;
+}
+
 .time_card {
 	background: #fff;
 	width: 430px;
