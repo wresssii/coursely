@@ -875,3 +875,56 @@ section {
 .more_icon {
 	margin: 32px 0 26px 32px;
 }
+
+
+/* footer */
+
+.footer_big {
+	background: #FBFBFB;
+}
+
+.footer_left {
+	width: 50%;
+}
+
+
+.footer_right {
+	width: 50%;
+}
+
+
+.footer_icon {
+	width: 156px;
+	height: 30px;
+}
+
+.footer_tit {
+	width: 395px;
+	color: #0F0F0F;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px; /* 150% */
+}
+
+.footer_txt {
+	color: #0F0F0F;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19.6px; /* 140% */
+}
+
+.footer_a {
+	color: #017CFF;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 19.6px; /* 150.769% */
+}
+
+.footer_sec__tit {
+	color: #B1B1B1;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px; /* 150% */
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
