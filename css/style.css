@@ -517,6 +517,14 @@ section {
 /* by */
 
 
+.by_tit {
+	color: #0F0F0F;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 45.6px; /* 120% */
+	margin: 0 0 64px 0;
+}
+
 .by_icon {
 	width: 40px;
 	height: 40px;
@@ -617,11 +625,11 @@ section {
 	line-height: 45.6px; /* 120% */
 }
 
-.btn.btn__blue {
+.btn__blue {
 	width: 208px;
 	height: 43px;
 	color: #fff;
-	background-color: #017cff;
+	background: #017cff;
 	margin: auto;
 }
 
@@ -729,3 +737,8 @@ section {
 .time_item {
 	margin: 10px;
 }
+
+
+
+/* more */
+
