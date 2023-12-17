@@ -511,71 +511,36 @@ section {
 	font-size: 38px;
 	font-weight: 700;
 	line-height: 45.6px; /* 120% */
+	margin: 0 0 64px 0;
 }
 
-.content-blocks {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: 45vh;
+.cour_icon {
+	width: 16px;
+	height: 10px;
+	margin: 28px 24px 28px 0;
 }
 
-.block {
-	background: rgb(233, 233, 233);
-	width: 500px;
-	height: 50px;
-	padding: 15px;
-	/* display: flex;
-	flex-direction: column; */
+.cour_tit {
+	color: #464646;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 30px; /* 157.895% */
+	margin: 14px 0 14px 24px ;
 }
-.one svg {
-	position: absolute;
-	margin-top: 4px;
-	margin-left: 320px;
-	width: 16px;
-	height: 15px;
-	cursor: pointer;
+
+.course_item {
+	background: #EDEDED;
+	width: 600px;
+	height: 66px;
+	margin: 12px 0;
+	margin-right: auto;
+	margin-left: auto;
 }
-.two svg {
-	position: absolute;
-	margin-top: 4px;
-	margin-left: 345px;
-	width: 16px;
-	height: 15px;
-	cursor: pointer;
+
+.course_items {
+  margin: auto;
 }
-.three svg {
-	position: absolute;
-	margin-top: 4px;
-	margin-left: 293px;
-	width: 16px;
-	height: 15px;
-	cursor: pointer;
-}
-.four svg {
-	position: absolute;
-	margin-top: 4px;
-	margin-left: 250px;
-	width: 16px;
-	height: 15px;
-	cursor: pointer;
-}
-.five svg {
-	position: absolute;
-	margin-top: 4px;
-	margin-left: 310.5px;
-	width: 16px;
-	height: 15px;
-	cursor: pointer;
-}
-.six svg {
-	position: absolute;
-	margin-top: 4px;
-	margin-left: 300px;
-	width: 16px;
-	height: 15px;
-	cursor: pointer;
-}
+
 
 /* by */
 
