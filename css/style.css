@@ -84,7 +84,6 @@ body {
 	width: 100%;
 	min-width: 320px;
 	margin: 0 auto;
-	padding: 0 15px;
 }
 
 .dn {
@@ -92,7 +91,7 @@ body {
 }
 
 section {
-	padding: 100px 0;
+	padding: 48px 0;
 }
 
 .sec_tit {
@@ -514,6 +513,70 @@ section {
 	line-height: 45.6px; /* 120% */
 }
 
+.content-blocks {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 45vh;
+}
+
+.block {
+	background: rgb(233, 233, 233);
+	width: 500px;
+	height: 50px;
+	padding: 15px;
+	/* display: flex;
+	flex-direction: column; */
+}
+.one svg {
+	position: absolute;
+	margin-top: 4px;
+	margin-left: 320px;
+	width: 16px;
+	height: 15px;
+	cursor: pointer;
+}
+.two svg {
+	position: absolute;
+	margin-top: 4px;
+	margin-left: 345px;
+	width: 16px;
+	height: 15px;
+	cursor: pointer;
+}
+.three svg {
+	position: absolute;
+	margin-top: 4px;
+	margin-left: 293px;
+	width: 16px;
+	height: 15px;
+	cursor: pointer;
+}
+.four svg {
+	position: absolute;
+	margin-top: 4px;
+	margin-left: 250px;
+	width: 16px;
+	height: 15px;
+	cursor: pointer;
+}
+.five svg {
+	position: absolute;
+	margin-top: 4px;
+	margin-left: 310.5px;
+	width: 16px;
+	height: 15px;
+	cursor: pointer;
+}
+.six svg {
+	position: absolute;
+	margin-top: 4px;
+	margin-left: 300px;
+	width: 16px;
+	height: 15px;
+	cursor: pointer;
+}
+
 /* by */
 
 
@@ -742,6 +805,12 @@ section {
 
 /* more */
 
+
+
+.more_cards {
+	margin: 48px 0 0 0;
+}
+
 .more_tit {
 	color: #0F0F0F;
 	text-align: center;
@@ -754,6 +823,7 @@ section {
 	width: 355px;
 	height: 340px;
 	background: #EDEDED;
+	margin: 0 32px 32px 0;
 }
 
 .more_txt {
@@ -762,6 +832,7 @@ section {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px; /* 150% */
+	margin: 0 32px 14px;
 }
 
 .more_icon {
@@ -772,4 +843,44 @@ section {
 .more_img {
 	width: 48px;
 	height: 48px;
+}
+
+.more_item {
+	width: 291px;
+	margin: 0 0 32px 32px;
+}
+
+.more_card__two {
+	width: 355px;
+  height: 268px;
+	background: #EDEDED;
+	margin: 0 32px 0 0;
+}
+
+.more_card__three {
+	background: #EDEDED;
+	width: 355px;
+	height: 292px;
+}
+
+.more_card__four {
+	background: #EDEDED;
+	width: 355px;
+	height: 292px;
+}
+
+.more_card__five {
+	background: #EDEDED;
+	width: 355px;
+	height: 340px;
+}
+
+.more_card__six {
+	background: #EDEDED;
+	width: 355px;
+	height: 268px;
+}
+
+.more_icon {
+	margin: 32px 0 26px 32px;
 }
