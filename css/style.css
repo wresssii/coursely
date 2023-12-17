@@ -621,7 +621,7 @@ section {
 	width: 208px;
 	height: 43px;
 	color: #fff;
-	background: #017cff;
+	background-color: #017cff;
 	margin: auto;
 }
 
@@ -720,4 +720,12 @@ section {
 .ti_icon {
 	width: 22px;
 	height: 23px;
+}
+
+.time_items {
+	margin: 56px 48px 35px;
+}
+
+.time_item {
+	margin: 10px;
 }
