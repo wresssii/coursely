@@ -881,21 +881,30 @@ section {
 
 .footer_big {
 	background: #FBFBFB;
+	height: 343px;
 }
 
 .footer_left {
 	width: 50%;
+	margin: 64px 0 64px 0;
 }
 
 
 .footer_right {
 	width: 50%;
+	margin: 64px 0 64px 0;
+	padding: 0 0 0 200px;
 }
 
 
 .footer_icon {
 	width: 156px;
 	height: 30px;
+	margin: 0 0 23px 0;
+}
+
+.footer_text {
+  width: 284px;
 }
 
 .footer_tit {
@@ -904,6 +913,7 @@ section {
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 27px; /* 150% */
+	margin: 0 0 13px 0;
 }
 
 .footer_txt {
@@ -923,8 +933,24 @@ section {
 .footer_sec__tit {
 	color: #B1B1B1;
 	font-size: 14px;
-	font-weight: 400;
-	line-height: 21px; /* 150% */
 	letter-spacing: 1px;
 	text-transform: uppercase;
+	margin: 0 0 16px 0;
+}
+
+.footer_sec__text {
+	width: 320px;
+	height: 215px;
+}
+
+.li {
+	width: 74px;
+}
+
+.footer_nav__one {
+	margin: 0 80px 0 0;
+}
+
+.c {
+	margin: 0 0 9px 0;
 }
