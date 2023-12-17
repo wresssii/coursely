@@ -622,11 +622,12 @@ section {
 	height: 43px;
 	color: #fff;
 	background: #017cff;
+	margin: auto;
 }
 
 .time_card {
 	background: #fff;
-	width: 430px;
+	max-width: 430px;
 	height: 572px;
 	transition: 0.5s;
 	width: calc((100% - 40px) / 2);
@@ -645,6 +646,17 @@ section {
 .time_icon {
 	width: 40px;
 	height: 40px;
+	color: #B1B1B1;
+	margin: auto;
+	margin-top: 48px;
+}
+
+.time_sec__tit {
+	color: #FFF;
+	text-align: center;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 45.6px; /* 120% */
 }
 
 .time_tit {
@@ -653,4 +665,53 @@ section {
 	font-size: 38px;
 	font-weight: 400;
 	line-height: 45.6px; /* 120% */
+	margin: 11px 0 15px 0;
+}
+
+.time_cards {
+	margin: 64px 270px 0 ;
+}
+
+.time_txt {
+	min-width: 230px;
+	color: #464646;
+	text-align: center;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 27px; /* 158.824% */
+	margin: 0 0 13px 0;
+}
+
+.time_price {
+	justify-content: center;
+	margin: 0 0 35px 0;
+}
+
+
+.time_price__one {
+	color: #017CFF;
+	font-size: 31px;
+	font-weight: 400;
+	line-height: 38.4px; /* 123.871% */
+	letter-spacing: 0.5px;
+}
+
+.time_tit_two {
+  color: #757575;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 22.4px; /* 112% */
+	letter-spacing: 0.5px;
+	padding: 8px 0 0 8px;	
+}
+
+/* .time_cards {
+	margin: auto;
+} */
+
+.time_card__two {
+	background: #FFF;
+	width: 430px;
+	height: 677px;
 }
