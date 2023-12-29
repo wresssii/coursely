@@ -219,13 +219,13 @@ section {
 
 
 /* learn */
-
-.learn_con {
-	margin: 0 155px;
+.learn_big {
+  margin: 0 105px 0 155px
 }
 
+
 .learn_left {
-  width: 40%;
+  width: 50%;
 }
 
 .learn_text {
@@ -278,12 +278,13 @@ section {
 }
 
 .learn_right {
-	width: 60%;
+	width: 50%;
 }
 
 .learn_img {
-	background: url(../img/IMAGE.jpg) lightgray 50% / cover no-repeat;
+	background: url(../img/IMAGE.jpg) ;
   margin: 0 0 0 97px;
+	height: 490px;
 }
 
 .learn_btns {
@@ -302,7 +303,6 @@ section {
 /* rectangle */
 
 .cards {
-	width: 1130px;
   margin: 0 15px;
 }
 
@@ -325,17 +325,8 @@ section {
 	margin: 13px;
 } 
 
-.card_tit__one {
-	width: 334px;
-	color: #0F0F0F;
-	font-size: 25px;
-	font-weight: 400;
-	line-height: 32.5px; /* 130% */
-	padding: 0 13px 0;
-}
 
 .card_txt {
-	width: 321px;
 	color: #0F0F0F;
 	font-size: 18px;
 	font-weight: 400;
@@ -343,17 +334,8 @@ section {
 	padding: 13px;
 }
 
-.card_txt__one {
-  width: 305px;
-	color: #0F0F0F;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 27px; /* 150% */
-	padding: 13px;
-}
 
-.card_tit__two {
-	width: 274px;
+.card_tit {
 	color: #0F0F0F;
 	font-size: 25px;
 	font-weight: 400;
@@ -361,14 +343,6 @@ section {
 	padding: 0 13px 0;
 }
 
-.card_tit__three {
-	width: 294px;
-	color: #0F0F0F;
-	font-size: 25px;
-	font-weight: 400;
-	line-height: 32.5px; /* 130% */
-	padding: 0 13px 0;
-}
 
 /* podcast */
 
@@ -612,7 +586,6 @@ section {
 
 .jamie_img {
 	width: 100px;
-	height: 100px;
 	margin: auto;
 }
 
@@ -620,7 +593,7 @@ section {
 	margin: auto;
 	padding: 50px 0 25px 0;
   text-align: center;
-	width: 646px;
+	max-width: 646px;
 }
 
 .jamie_tit {
@@ -688,9 +661,9 @@ section {
 }
 
 .time_card {
+	display: block;
 	background: #fff;
 	max-width: 430px;
-	height: 572px;
 	transition: 0.5s;
 	width: calc((100% - 40px) / 2);
 }
@@ -735,13 +708,14 @@ section {
 }
 
 .time_txt {
-	min-width: 230px;
+	display: block;
+	width: 230px;
 	color: #464646;
 	text-align: center;
 	font-size: 17px;
 	font-weight: 400;
 	line-height: 27px; /* 158.824% */
-	margin: 0 0 13px 0;
+	margin: 0 100px 13px 100px;
 }
 
 .time_price {
@@ -810,11 +784,10 @@ section {
 	line-height: 45.6px; /* 120% */
 }
 
-.more_card__one {
+.more_card {
 	width: 355px;
-	height: 340px;
 	background: #EDEDED;
-	margin: 0 32px 32px 0;
+	margin-bottom: 32px;
 }
 
 .more_txt {
@@ -829,11 +802,18 @@ section {
 .more_icon {
 	width: 116px;
 	height: 20px;
+
 }
 
 .more_img {
 	width: 48px;
 	height: 48px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.name {
+	margin: 12px 98px 12px 12px;
 }
 
 .more_item {
@@ -841,36 +821,6 @@ section {
 	margin: 0 0 32px 32px;
 }
 
-.more_card__two {
-	width: 355px;
-  height: 268px;
-	background: #EDEDED;
-	margin: 0 32px 0 0;
-}
-
-.more_card__three {
-	background: #EDEDED;
-	width: 355px;
-	height: 292px;
-}
-
-.more_card__four {
-	background: #EDEDED;
-	width: 355px;
-	height: 292px;
-}
-
-.more_card__five {
-	background: #EDEDED;
-	width: 355px;
-	height: 340px;
-}
-
-.more_card__six {
-	background: #EDEDED;
-	width: 355px;
-	height: 268px;
-}
 
 .more_icon {
 	margin: 32px 0 26px 32px;
