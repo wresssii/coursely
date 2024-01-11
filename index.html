@@ -17,8 +17,8 @@
     <div class="head">
       <div class="container">
         <div class="head_con flex">
-          <span class="tit">A Webflow template for video courses. </span>
-          <p class="txt">See all templates ></p>
+          <a href="#" class="tit">A Webflow template for video courses. </a>
+          <a href="#" class="txt">See all templates ></a>
         </div>
       </div>
     </div>
@@ -30,10 +30,10 @@
           </div>
         </div>
         <div class="text">
-          <h2 class="menu_tit">LAUNCH A SUCCESSFUL PODCAST</h2>
+          <a href="#" class="menu_tit">LAUNCH A SUCCESSFUL PODCAST</a>
         </div>
         <div class="btns">
-          <a href="" class="btn btn__red">Enroll Now</a>
+          <div class="btn btn__red">Enroll Now</div>
         </div>
       </div>
     </div>
@@ -53,9 +53,9 @@
             <h3 class="price flex">$189</h3>
             <s class="exprice flex">$399</s>
           </div>
-          <div class="learn_btns">
-            <a href="" class="btn btn__red">Enroll Now</a>
-            <a href="" class="btn btn__two" class="btn btn__three">> Watch Trailer</a>
+          <div class="learn_btns flex">
+            <div class="btn btn__red">Enroll Now</div>
+            <div class="btn btn__two" class="btn btn__three">> Watch Trailer</div>
           </div>
         </div>
         <div class="learn_right">
@@ -103,7 +103,7 @@
     <div class="container">
       <div class="con flex">
         <div class="podcast_left">
-          <div class="podcast_img">
+          <div class="podcast_img  animation">
             <img src="img/podcast.jpg" alt="">
           </div>
         </div>
@@ -133,31 +133,40 @@
     </div>
   </section>
 
-
   <section class="included">
     <div class="container">
       <div class="included_con">
         <h2 class="inc__sec_tit">What's Included?</h2>
         <div class="included_cards flex">
           <div class="included_card">
-            <h3 class="number">6</h3>
-            <p class="text__one">Chapters</p>
+            <div class="lit flex">
+            <div class="counter " data-to="6 " data-stop="1">6</div>
+            </div>
+            <p class="inc_tit">Chapters</p>
           </div>
           <div class="included_card">
-            <h3 class="number">56+</h3>
-            <p class="text__two">Podcast Ideas</p>
+            <div class="lit flex">
+            <div class="counter " data-to="56 " data-stop="1">56</div> <h2 class="number_pro">+</h2>
+            </div>
+            <p class="inc_tit">Podcast Ideas</p>
           </div>
           <div class="included_card">
-            <h3 class="number">28</h3>
-            <p class="text__three">Videos</p>
+            <div class="lit flex">
+            <div class="counter " data-to="28 " data-stop="1">28</div>
+            </div>
+            <p class="inc_tit">Videos</p>
           </div>
           <div class="included_card">
-            <h3 class="number">4</h3>
-            <p class="text__four">Free Resources</p>
+            <div class="lit flex">
+            <div class="counter " data-to="4 " data-stop="1">4</div>
+          </div>
+            <p class="inc_tit">Free Resources</p>
           </div>
           <div class="included_card">
-            <h3 class="number">$8k</h3>
-            <p class="text__five">Worth of Value</p>
+            <div class="lit flex"> <h2 class="number_pro">$</h2>
+            <div class="counter " data-to="8 " data-stop="1">8</div> <h2 class="number_pro">k</h2>
+          </div>
+            <p class="inc_tit">Worth of Value</p>
           </div>
         </div>
       </div>
@@ -168,48 +177,45 @@
     <div class="container">
       <div class="con">
         <h2 class="course_sec__tit">The Course Curriculum</h2>
-        <div class="course_items">
-          <div class="course_item flex">
-            <p class="cour_tit">Outlining your Idea</p>
-            <div class="cour_icon">
-              <img src="img/icons/cour.svg" alt="">
-            </div>
-          </div>
-          <div class="course_item flex">
-            <p class="cour_tit">Finding Guests</p>
-            <div class="cour_icon">
-              <img src="img/icons/cour.svg" alt="">
-            </div>
-          </div>
-          <div class="course_item flex">
-            <p class="cour_tit">Growing & Connecting</p>
-            <div class="cour_icon">
-              <img src="img/icons/cour.svg" alt="">
-            </div>
-          </div>
-          <div class="course_item flex">
-            <p class="cour_tit">Profiting From Your Podcast</p>
-            <div class="cour_icon">
-              <img src="img/icons/cour.svg" alt="">
-            </div>
-          </div>
-          <div class="course_item flex">
-            <p class="cour_tit">Building Your Brand</p>
-            <div class="cour_icon">
-              <img src="img/icons/cour.svg" alt="">
-            </div>
-          </div>
-          <div class="course_item flex">
-            <p class="cour_tit">Long Term Thinking</p>
-            <div class="cour_icon">
-              <img src="img/icons/cour.svg" alt="">
-            </div>
-          </div>
+        <div class="cour_item flex">
+        <button class="accordion">Outlining your Idea</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus dolor fugiat quibusdam quos debitis tempore, iste modi perspiciatis eum esse. Maiores obcaecati error aliquid soluta ad facere officiis corporis ut.</p>
+        </div>
+        </div>
+        <div class="cour_item">
+        <button class="accordion">Finding Guests</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odit, esse et ullam at veniam aliquam perspiciatis nihil facilis possimus similique debitis soluta repellendus iusto enim reprehenderit temporibus! Quia, assumenda.</p>
+        </div>
+        </div>
+        <div class="cour_item">
+        <button class="accordion">Growing & Connecting</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, autem nobis. Dolores dicta expedita nobis aliquid, minus quasi illum, quam enim incidunt, tempore ipsa voluptate voluptates assumenda. A, hic fugit!</p>
+        </div>
+        </div>
+        <div class="cour_item">
+        <button class="accordion">Profiting From Your Podcast</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt sed maxime mollitia nam, aspernatur officia consequatur eveniet quaerat at odio magni enim explicabo optio sequi deleniti culpa corporis suscipit vitae?</p>
+        </div>
+      </div>
+      <div class="cour_item">
+        <button class="accordion">Building Your Brand</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis recusandae minima, soluta velit, sequi nihil repellat nostrum ratione, distinctio rem cumque. Qui voluptate magnam officiis incidunt, deserunt optio necessitatibus saepe?</p>
+        </div>
+        </div>
+        <div class="cour_item">
+        <button class="accordion">Long Term Thinking</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus vero voluptatem, ex error laudantium, odio eveniet modi amet praesentium optio perspiciatis exercitationem incidunt, repellendus architecto dolores alias placeat ducimus? Eligendi?</p>
+        </div>
         </div>
       </div>
     </div>
   </section>
-
 
   <section class="by">
     <div class="container">
@@ -467,7 +473,7 @@
               <span class="name">Jamie Matthew</span>
             </div>
           </div>
-          <div class="more_card">
+          <div class="more_card  more__e upp">
             <div class="more_icon">
               <img src="img/icons/more1.svg" alt="">
             </div>
@@ -481,7 +487,7 @@
               <span class="name">Jamie Matthew</span>
             </div>
           </div>
-          <div class="more_card">
+          <div class="more_card  more__e uppp">
             <div class="more_icon">
               <img src="img/icons/more1.svg" alt="">
             </div>
@@ -541,6 +547,8 @@
     </div>
   </footer>
 
+  <script src="js/core.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 </body>
 
