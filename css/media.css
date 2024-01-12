@@ -1,10 +1,139 @@
-@media screen and (max-width: 975px){
-  img {
+@media screen and (max-width: 1200px) {
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s; 
+    position: absolute;
+    top: 68px;
+    right: 30px; 
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  .menu_tit {
+    display: none;
+  }
+  .btn__redd {
+    display: none;
+  }
+  .learn_right {
     width: 100%;
   }
+  .learn_left {
+    width: 100%;
+    margin: 0 48px 60px;
+  }
+  .con {
+    margin: 0;
+  }
+  .podcast_con {
+    margin: 0;
+  }
+  .podcast_left {
+    width: 100%;
+  }
+  .podcast_right {
+    width: 100%;
+  }
+  .by_con {
+    margin: 0;
+  }
+  .time_card {
+    margin-bottom: 32px;
+  }
+
 }
-@media screen and (max-width: 770px) {
-  .menu {
-  display: none;
- }
+
+@media screen and (max-width: 992px){
+.learn_big {
+   margin: 0;
+}
+.card {
+  margin-bottom: 32px;
+}
+.by_card {
+  width: calc((100% - 48px) / 3) ;
+}
+.upp {
+  margin: 0;
+}
+.uppp {
+  margin-top: -74px;
+}
+.upppp {
+  margin-top: -74px;
+}
+.more_cards {
+  margin: 48px;
+}
+.footer_big {
+  margin: 48px;
+}
+.footer_right {
+  padding-left: 112px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.cards {
+  margin: 48px;
+}
+.podcast_left{
+  width: 50%;
+  margin: 0 100px;
+}
+.podcast_right {
+  width: 50%;
+  margin: 0 100px;
+}
+.by_cards {
+  margin: 48px;
+}
+.by_card {
+  width: calc((100% - 48px) / 2) ;
+}
+.any_item {
+  width: 600px;
+}
+.time_card {
+  margin-left: 150px ;
+}
+.time_cards {
+  margin: 64px 0;
+}
+.more_card {
+  margin: 32px auto;
+}
+.footer_big {
+  margin: 48px;
+}
+.footer_left {
+  width: 100%;
+  margin: 75px;
+}
+.footer_right {
+  width: 100%;
+  padding: 0;
+  margin: 0 75px;
+}
+.footer_nav__one {
+  margin-right: 40px;
+}
+}
+
+
+.container {
+  display: inline-block;
+  cursor: pointer;
 }
