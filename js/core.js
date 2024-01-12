@@ -1,4 +1,3 @@
-// number
 let counter = document.querySelectorAll('.counter');
     let limit = 0; // Переменная, чтобы останавливать функцию, когда всё запустится.
     window.addEventListener('scroll', function () {
@@ -24,6 +23,8 @@ let counter = document.querySelectorAll('.counter');
             }
         }
     });
+
+})();
 
 
 // accordion
